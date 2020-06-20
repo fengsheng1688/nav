@@ -4,19 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="stylesheet" href="test.css" />
   </head>
+
   <body>
-    <div>
-      <div id="test">
-        <span>test1</span>
-        <p class="red">段落标签3</p>
-        test2
-      </div>
-      <div id="test2">
-        <p class="red">段落标签3</p>
-        test2
-      </div>
+    <div class="nav">
+      <div class="iconda">
+        <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-baidu"></use>
+    </svg>
+  </div>
+  <form class="searchForm" method="get"
+  action="https://www.baidu.com/s"
+>
+      <input class="kuan" name="wd" type="text"></input>
+      <button class="row">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-more"></use>
+      </svg>
+      </button>
+  </form>
     </div>
+    <div class="wrap">
+      <ul>
+        
+        <li class="baidu">
+          <a href="https://www.baidu.com">
+            <div><img src="img/baidu.png" /></div>
+          </a>
+        </li>
+        
+        <li class="sina">
+          <a href="https://www.sina.com.cn">
+            <div><img src="img/sina.png" /></div>
+          </a>
+        </li>
+        
+        <li class="wuba">
+          <a href="https://dg.58.com">
+            <div><img src="img/58.png" /></div>
+          </a>
+        </li>
+        
+        <li class="aiqiyi">
+          <a href="https://vip.iqiyi.com">
+            <div><img src="img/aiqiyi.png" /></div>
+          </a>
+        </li>
+        
+        <li class="taobao">
+          <a href="https://www.taobao.com">
+            <div><img src="img/taobao.png" /></div>
+          </a>
+        </li>
+        
+        <li class="jd">
+          <a href="https://www.jd.com">
+            <div><img src="img/jd.png" /></div>
+          </a>
+        </li>
+        
+        <li class="weipinh">
+          <a href="https://www.vip.com">
+            <div><img src="img/weipinh.png" /></div>
+          </a>
+        </li>
+        
+        <li class="ctrip">
+          <a href="https://www.ctrip.com">
+            <div><img src="img/ctrip.png" /></div>
+          </a>
+        </li>
+      
+      </ul>
+    </div>
+ 
   </body>
-  <script src="dom.js"></script>
+
+  <script src="jquery.min.js"></script>
+  <script src="http://at.alicdn.com/t/font_1896188_7k8iokg5vdr.js"></script>
+  <script src="http://at.alicdn.com/t/font_1896188_ynxo7am8nf.js"></script>
+  <script src="test.js"></script>
 </html>

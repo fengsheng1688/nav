@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+.kuan:focus {
+  outline: none;
+}
+
+.nav {
+  width: 600px;
+  font-size: 30px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  display: flex;
+  margin: 100px auto;
+}
+.iconda {
+  width: 30px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.kuan {
+  border: none;
+  flex: auto;
+}
+.searchForm {
+  flex: auto;
+  display: flex;
+}
+
+.row {
+  width: 40px;
+
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.wrap {
+  margin: 100px auto;
+  width: 90%;
+}
+.wrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrap li {
+  margin-bottom: 30px;
+}
+li div {
+  box-shadow: #666 0px 0px 10px;
+  width: 256px;
+}
+
+img {
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .nav {
+    width: 90%;
+    margin: 100px auto 0;
+    font-size: 20px;
+  }
+  li div {
+    width: 128px;
+  }
+  .wrap {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .wrap ul {
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .wrap ul {
+    justify-content: space-around;
+  }
+  .nav {
+    width: 70%;
+    margin: 100px auto 0;
+    font-size: 20px;
+  }
+}
